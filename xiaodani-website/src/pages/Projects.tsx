@@ -191,7 +191,31 @@ const Projects: React.FC = () => {
         </div>
       </section>
 
-      
+      {/* Personal Projects */}
+      <section className="mb-16">
+        <h2 className="text-2xl font-semibold text-gray-800">Personal Github</h2>
+        <div className="space-y-6 pl-4 border-l-4 border-indigo-500">
+          <div>
+            <ul className="list-disc pl-6 text-base text-gray-700">
+              <li>
+                <a 
+                target="_blank" 
+                rel="noopener noreferrer"
+                href="https://github.com/xiaodani/scripts" className="text-blue-600 hover:underline">
+                  Scripts Collection
+                </a> - Useful automation scripts for development workflows
+              </li>
+              <li>
+                <a target="_blank" 
+                rel="noopener noreferrer"
+                href="https://github.com/xiaodani/code-snippets" className="text-blue-600 hover:underline">
+                  Code Snippets
+                </a> - Reusable components and utilities
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
