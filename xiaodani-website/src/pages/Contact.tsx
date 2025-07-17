@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
           >
-            github.com/yourusername
+            github.com/xiaodani
           </a>
         </li>
       </ul>

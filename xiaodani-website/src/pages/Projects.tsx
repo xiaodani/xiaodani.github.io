@@ -24,7 +24,14 @@ const Projects: React.FC = () => {
               <li>Worked across full stack in a fast-paced startup environment</li>
             </ul>
           </div>
+          <div className="flex gap-2 flex-wrap text-sm text-white">
+            <span className="bg-green-700 px-2 py-1 rounded">React</span>
+            <span className="bg-gray-700 px-2 py-1 rounded">Node.js</span>
+            <span className="bg-pink-600 px-2 py-1 rounded">Phaser</span>
+            <span className="bg-orange-500 px-2 py-1 rounded">Reddit API</span>
+          </div>
         </div>
+        
       </section>
 
       {/* D&S INC */}
@@ -39,6 +46,11 @@ const Projects: React.FC = () => {
             <ul className="list-disc pl-6 text-base text-gray-700">
               <li>Visualized Big Data with PyQt5 using lazy loading for large datasets</li>
             </ul>
+            <div className="flex gap-2 flex-wrap text-sm text-white">
+              <span className="bg-blue-600 px-2 py-1 rounded">Python</span>
+              <span className="bg-purple-700 px-2 py-1 rounded">PyQt5</span>
+              <span className="bg-yellow-600 px-2 py-1 rounded">Big Data</span>
+            </div>
           </div>
 
           {/* Ideabox */}
@@ -49,7 +61,15 @@ const Projects: React.FC = () => {
               <li>Configured Docker-based deployment pipelines for streamlined integration</li>
               <li>Customized base architecture to align with product goals</li>
             </ul>
+            <div className="flex gap-2 flex-wrap text-sm text-white">
+              <span className="bg-red-600 px-2 py-1 rounded">Laravel</span>
+              <span className="bg-blue-400 px-2 py-1 rounded">Docker</span>
+              <span className="bg-gray-800 px-2 py-1 rounded">Linux</span>
+              <span className="bg-indigo-600 px-2 py-1 rounded">Ploi</span>
+              <span className="bg-teal-600 px-2 py-1 rounded">SaaS</span>
+            </div>
           </div>
+
 
           {/* Ride Hailing */}
           <div>
@@ -57,6 +77,26 @@ const Projects: React.FC = () => {
             <ul className="list-disc pl-6 text-base text-gray-700">
               <li>Developed core features for a driver-facing app in React for web/native platforms</li>
             </ul>
+            <div className="flex gap-2 flex-wrap text-sm text-white">
+              <span className="bg-green-700 px-2 py-1 rounded">React</span>
+              <span className="bg-blue-500 px-2 py-1 rounded">React Native</span>
+              <span className="bg-gray-700 px-2 py-1 rounded">TypeScript</span>
+            </div>
+          </div>
+
+          {/* Website maintainence */}
+          <div>
+            <h3 className="text-lg font-semibold text-blue-700">Website maintainence (mainly Wordpress, HTML/CSS)</h3>
+            <ul className="list-disc pl-6 text-base text-gray-700">
+              <li>Create small updates to website requested by clients </li>
+              <li>Maintain and update SSL certificates </li>
+              <li>Check server for errors and update monthly reports</li>
+            </ul>
+            <div className="flex gap-2 flex-wrap text-sm text-white">
+              <span className="bg-gray-700 px-2 py-1 rounded">Linux</span>
+              <span className="bg-blue-500 px-2 py-1 rounded">Python</span>
+              <span className="bg-yellow-700 px-2 py-1 rounded">Wordpress</span>
+            </div>
           </div>
         </div>
       </section>
@@ -75,6 +115,12 @@ const Projects: React.FC = () => {
               <li>Maintained and resolved issues in AVICORE (graphics), AVIAN (animation), Brutus (data parser)</li>
               <li>Worked on automated tests (unit, acceptance) using Jenkins/CTC pipelines</li>
             </ul>
+            <div className="flex gap-2 flex-wrap text-sm text-white">
+              <span className="bg-gray-700 px-2 py-1 rounded">C++</span>
+              <span className="bg-orange-600 px-2 py-1 rounded">Embedded</span>
+              <span className="bg-red-500 px-2 py-1 rounded">Jenkins</span>
+              <span className="bg-blue-400 px-2 py-1 rounded">Automotive</span>
+            </div>
           </div>
 
           {/* CGIStudio */}
@@ -84,6 +130,11 @@ const Projects: React.FC = () => {
               <li>Integrated internal IIP system with CGIStudio-based HMI front-end</li>
               <li>Contributed to custom HMI features for automotive instrument clusters</li>
             </ul>
+            <div className="flex gap-2 flex-wrap text-sm text-white">
+              <span className="bg-gray-700 px-2 py-1 rounded">C++</span>
+              <span className="bg-green-600 px-2 py-1 rounded">CGIStudio</span>
+              <span className="bg-red-600 px-2 py-1 rounded">Cmake</span>
+            </div>
           </div>
         </div>
       </section>
@@ -101,6 +152,12 @@ const Projects: React.FC = () => {
               <li>Improved data readability with pretty-JSON formatting tools</li>
               <li>Added Twilio SMS messaging for admin-client communication fallback</li>
             </ul>
+          </div>
+          <div className="flex gap-2 flex-wrap text-sm text-white">
+            <span className="bg-green-800 px-2 py-1 rounded">Django</span>
+            <span className="bg-yellow-600 px-2 py-1 rounded">Elasticsearch</span>
+            <span className="bg-red-500 px-2 py-1 rounded">Twilio</span>
+            <span className="bg-blue-600 px-2 py-1 rounded">Python</span>
           </div>
         </div>
       </section>
@@ -124,8 +181,17 @@ const Projects: React.FC = () => {
               <li>Handled weekly production maintenance, customer issue triage, and analytics reporting</li>
             </ul>
           </div>
+          <div className="flex gap-2 flex-wrap text-sm text-white">
+            <span className="bg-purple-600 px-2 py-1 rounded">PHP</span>
+            <span className="bg-blue-600 px-2 py-1 rounded">MySQL</span>
+            <span className="bg-orange-600 px-2 py-1 rounded">Linux</span>
+            <span className="bg-red-500 px-2 py-1 rounded">Apache</span>
+            <span className="bg-yellow-500 px-2 py-1 rounded">JavaScript</span>
+          </div>
         </div>
       </section>
+
+      
     </div>
   );
 };
