@@ -6,6 +6,9 @@ const navItems = [
   { name: "Projects", to: "/projects" },
   { name: "Games", to: "/games" },
   { name: "Contact", to: "/contact" },
+  //{ name: "MoeScrollTest", to: "/moescrolltest" }, 
+  //{ name: "MoePageTest", to: "/moepagetest" }
+
 ];
 
 const Navbar: React.FC = () => {

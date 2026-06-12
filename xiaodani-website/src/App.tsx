@@ -9,6 +9,8 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Games from "./pages/Games";
 import Contact from "./pages/Contact";
+import MoeScrollTest from "./pages/MoeScrollTest";
+import MoePageTest from "./pages/MoePageTest";
 
 const App: React.FC = () => {
   return (
@@ -17,10 +19,11 @@ const App: React.FC = () => {
       <main className="flex-grow p-4">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/games" element={<Games />} />
+          <Route path="/moescrolltest" element={<MoeScrollTest />} />
+          <Route path="/moepagetest" element={<MoePageTest />} />
         </Routes>
       </main>
       <Footer />
